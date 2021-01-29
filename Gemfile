@@ -12,3 +12,4 @@ gem 'sinatra'
 gem 'shotgun'
 gem 'capybara', group: :test
 gem 'rspec', group: :test
+
