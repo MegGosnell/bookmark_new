@@ -8,7 +8,7 @@ describe Bookmark do
         connection = PG.connect(dbname: 'bookmark_manager_test')
 
         connection.exec("INSERT INTO bookmarks (url) VALUES ('http://www.makersacademy.com');")
-            bookmarks = Bookmark.all
+        bookmarks = Bookmark.all
         expect(bookmarks).to include("http://www.makersacademy.com")
         end
     end
