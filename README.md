@@ -12,6 +12,12 @@ So that i can access my most used websites
 I would like to add a new bookmark
 ```
 
+```
+As a user
+So that i can remove my bookmark from my Bookmark manager
+I want to delete a bookmark
+```
+
 ## Domain model:
 
 Nouns  | Property or Owner of Property
